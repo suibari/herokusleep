@@ -1,33 +1,31 @@
 # Heroku Sleep Page
 
-Herokuの無料プランがSleepしてるときに表示させるための
-エラーページのテンプレートです。
+This is a template for Heroku error page showing your sleep hours for free dyno.
 
 [DEMO](https://notsobad-jp.github.io/herokusleep/sleep.html)
 
-StatusPage.ioの、Better Error Pagesをベースにしています。
+The page design from Better Error Pages by StatusPage.io.
 
 [Better Error Pages](https://better-error-pages.statuspage.io/)
 
 
 ## Usage
 
-Herokuのカスタムエラーページの設定の仕方はこちらを参照。
+Heroku docs for setting custom error page is this:
 
 [Error Pages | Heroku](https://devcenter.heroku.com/articles/error-pages)
 
 
-DEMOページをそのまま使う場合は、  
-エラーページのURLに以下を設定する。
+If you want to use DEMO page as it is,  
+just run the following command:
 
->https://notsobad-jp.github.io/herokusleep/sleep.html
-
-ためしにメンテナンスしてみて表示を確認できればオッケー。
+    heroku config:set \
+    ERROR_PAGE_URL=//notsobad-jp.github.io/herokusleep/sleep.html
 
 
 ## Customize
 
-表示をカスタマイズしたい場合は、このリポジトリをクローンして  
-いろいろ変えてみてください。
+If you would like to customize the error page,  
+clone this repository and change as you like.
 
-背景色・文字色は129行目くらいから定義されています。
+The background color and text color are defined at about line 129.
