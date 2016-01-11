@@ -20,7 +20,7 @@ If you want to use DEMO page as it is,
 just run the following command:
 
     heroku config:set \
-    ERROR_PAGE_URL=//notsobad-jp.github.io/herokusleep/sleep.html
+    ERROR_PAGE_URL=//notsobad-jp.github.io/herokusleep/
 
 
 ## Customize
