@@ -2,11 +2,9 @@
 
 This is a template for Heroku error page showing your sleep hours for free dyno.
 
+![](https://github.com/notsobad-jp/herokusleep/error.png)
+
 [DEMO](https://notsobad-jp.github.io/herokusleep/sleep.html)
-
-The page design from Better Error Pages by StatusPage.io.
-
-[Better Error Pages](https://better-error-pages.statuspage.io/)
 
 
 ## Usage
@@ -29,3 +27,9 @@ If you would like to customize the error page,
 clone this repository and change as you like.
 
 The background color and text color are defined at about line 129.
+
+
+## Credit
+The page design is from Better Error Pages by StatusPage.io.
+
+[Better Error Pages](https://better-error-pages.statuspage.io/)
