@@ -4,7 +4,7 @@ This is a template for Heroku error page showing your sleep hours for free dyno.
 
 ![](https://notsobad-jp.github.io/herokusleep/error.png)
 
-[DEMO](https://notsobad-jp.github.io/herokusleep/sleep.html)
+[DEMO](https://notsobad-jp.github.io/herokusleep/)
 
 
 ## Usage
