@@ -2,7 +2,7 @@
 
 This is a template for Heroku error page showing your sleep hours for free dyno.
 
-![](https://github.com/notsobad-jp/herokusleep/error.png)
+![](https://notsobad-jp.github.io/herokusleep/error.png)
 
 [DEMO](https://notsobad-jp.github.io/herokusleep/sleep.html)
 
@@ -14,7 +14,7 @@ Heroku docs for setting custom error page is this:
 [Error Pages | Heroku](https://devcenter.heroku.com/articles/error-pages)
 
 
-If you want to use DEMO page as it is,  
+If you need no change for this DEMO,  
 just run the following command:
 
     heroku config:set \
@@ -24,7 +24,7 @@ just run the following command:
 ## Customize
 
 If you would like to customize the error page,  
-clone this repository and change as you like.
+clone this repository and change it as you like.
 
 The background color and text color are defined at about line 129.
 
